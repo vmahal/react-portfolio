@@ -1,0 +1,23 @@
+.background-style {
+  background-color: #01051b !important;
+  /* background-color: #1F2544 !important; */
+}
+
+.navbar-background {
+  background-color: #1B1A55 !important;
+}
+
+.navbar-font {
+  /* color: #FFD0EC !important; */
+  /* color: #64CCC5 !important; */
+  color: #eaf1f1 !important;
+  
+}
+
+.app-background {
+  background-color: #01051b !important;
+  font-family: "Signika Negative", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
