@@ -1,0 +1,15 @@
+.copyright-style{
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer-outer-div {
+    height: 3rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+}

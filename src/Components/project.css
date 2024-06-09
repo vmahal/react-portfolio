@@ -1,0 +1,48 @@
+.project-cards{
+    position: relative !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    transform-style: preserve-3d !important;
+    background-color: red !important;
+    z-index: 6 !important;
+    width: 21rem !important;
+    height: 20rem !important;
+    cursor: grab !important;
+    width: 30rem;
+    display: block;
+}
+
+.outer-div-projects {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+    padding: 0 8.5rem;
+    position: relative; */
+    padding: 8%;
+}
+
+.childrenGrid {
+    display: flex;
+    height: 100%;
+    /* left: 0; */
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.text-intro {
+    top: 7%;
+    position: relative;
+    /* padding-left: 4%;     */
+    font-size: larger;
+    font-size: 1.7rem !important;
+    /* font-family: fantasy; */
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    color: #ecf0ef;
+    text-transform: uppercase;
+}
