@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.be88816d.css",
+    "main.js": "/react-portfolio/static/js/main.d128b184.js",
+    "static/media/womenimg.png": "/react-portfolio/static/media/womenimg.cf37700fadc15f2b1a9b.png",
+    "static/media/aboutme.png": "/react-portfolio/static/media/aboutme.467bf0356cadd1d8a18d.png",
+    "static/media/redux.png": "/react-portfolio/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/backdrop.jpg": "/react-portfolio/static/media/backdrop.1721b6d24613acecdc9a.jpg",
+    "static/media/womentech.png": "/react-portfolio/static/media/womentech.d8eb0e852833f1509d21.png",
+    "static/media/projecttech.jpg": "/react-portfolio/static/media/projecttech.f7a1e00aef1abc7a36e9.jpg",
+    "static/media/backimg.jpeg": "/react-portfolio/static/media/backimg.9262fc182672fbbf66cb.jpeg",
+    "static/media/about.png": "/react-portfolio/static/media/about.ec0351bfda573585c0b7.png",
+    "static/media/js.png": "/react-portfolio/static/media/js.1053926cf2f54323bdc1.png",
+    "static/media/homepage.jpeg": "/react-portfolio/static/media/homepage.da09b28b62dcd1da7308.jpeg",
+    "static/media/react.png": "/react-portfolio/static/media/react.2a0cac33f155e4a27216.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.be88816d.css.map": "/react-portfolio/static/css/main.be88816d.css.map",
+    "main.d128b184.js.map": "/react-portfolio/static/js/main.d128b184.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be88816d.css",
+    "static/js/main.d128b184.js"
+  ]
+}
