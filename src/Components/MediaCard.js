@@ -3,10 +3,10 @@ import {Card, CardContent, CardMedia, Typography} from '@mui/material';
 
 export default function MediaCard({cardTitle, cardBody}) {
   return (
-    <Card sx={{ maxWidth: 500 }}>
+    <Card sx={{ maxWidth: 400 }}>
       <CardMedia
         sx={{ height: 200 }}
-        image={require("../images/backdrop.jpg")}
+        image={require("../images/projecttech.jpg")}
         title="green iguana"
       />
       <CardContent>
