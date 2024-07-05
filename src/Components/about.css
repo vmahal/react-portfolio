@@ -1,4 +1,4 @@
-.about-outer-div {
+.about-outer-div-darkMode {
   color: white;
   /* height: 100vh !important; */
   font-size: 1.3rem;
@@ -10,30 +10,49 @@
   align-items: stretch;
 }
 
-about-outer-div > * {
+.about-outer-div-lightMode {
+  color: black;
+  /* height: 100vh !important; */
+  font-size: 1.3rem;
+  /* padding: 0 26% 0 8%; */
+  padding: 13% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+about-outer-div>* {
   font-family: "Signika Negative", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  /* padding-bottom: 10px; */
 }
 
-.about-outer-div > :first-child {
-    /* color: #dafffb;   */
-    color: #72ede0;
-    font-size: 2rem;
+.about-outer-div-darkMode> :first-child {
+  color: #72ede0;
+  font-size: 2rem;
 }
 
-strong {
+.about-outer-div-lightMode> :first-child {
+  color: #5900ff;
+  font-size: 2rem;
+}
+
+.strong-style-darkMode {
   font-style: italic;
   font-weight: 700;
-  /* color: #dafffb */
   color: #72ede0;
 }
 
+.strong-style-lightMode {
+  font-style: italic;
+  font-weight: 700;
+  color: #5900ff;
+}
 
-.padding-class{
-    padding-bottom: 3%;
+.padding-class {
+  padding-bottom: 3%;
 }
 
 .about-left-grid-img {

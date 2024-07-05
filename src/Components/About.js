@@ -1,17 +1,20 @@
 import { Grid } from "@mui/material";
 import "./about.css";
 
-const About = () => {
+const About = ({ currMode }) => {
+
+  const findMode = currMode ? "lightMode" : "darkMode";
+
   return (
     <Grid container>
       <Grid className="center-a-element" xs={4}>
-        <img className="about-left-grid-img" src={require('../images/aboutme.png')} alt="about me"/>
-        </Grid>
+        <img className="about-left-grid-img" src={require('../images/aboutme.png')} alt="about me" />
+      </Grid>
       <Grid xs={8}>
-        <div className="about-outer-div">
+        <div className={`about-outer-div-${findMode}`}>
           <div className="padding-class"> Hi There!! 👋🏻 </div>
           <div>
-            I'm Vanshika, I am born and brought up in <strong>Delhi</strong>.{" "}
+            I'm Vanshika, I am born and brought up in <strong className={`strong-style-${findMode}`}>Delhi</strong>.{" "}
           </div>
           <div className="padding-class">
             During my graduation, I just fell in love with programming which
@@ -19,7 +22,7 @@ const About = () => {
           </div>
           <div>
             And there I am, a frontend engineer with{" "}
-            <strong>more than 3</strong> years of experience.
+            <strong className={`strong-style-${findMode}`}>4 years</strong> of experience.
           </div>
           {/* <div className="padding-class">
         My experience includes work in various technologies such as <strong> React JS,

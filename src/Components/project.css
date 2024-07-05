@@ -1,4 +1,18 @@
-.project-cards{
+.project-cards-lightMode {
+    position: relative !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    transform-style: preserve-3d !important;
+    background-color: red !important;
+    z-index: 6 !important;
+    width: 21rem !important;
+    height: 20rem !important;
+    cursor: grab !important;
+    width: 30rem;
+    display: block;
+}
+
+.project-cards-darkMode {
     position: relative !important;
     border-radius: 20px !important;
     overflow: hidden !important;
@@ -13,14 +27,10 @@
 }
 
 .outer-div-projects {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;   
-    padding: 0 8.5rem;
-    position: relative; */
     padding: 8%;
+    /* color: "white";  */
 }
+
 
 .childrenGrid {
     display: flex;
@@ -33,12 +43,30 @@
     flex-direction: column;
 }
 
-.text-intro {
+.text-intro-lightMode {
     top: 7%;
     position: relative;
     /* padding-left: 4%;     */
     font-size: larger;
-    font-size: 1.7rem !important;
+    /* font-size: 1.7rem !important; */
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* font-family: fantasy; */
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    color: #01051b;
+    text-transform: uppercase;
+}
+
+.text-intro-darkMode {
+    top: 7%;
+    position: relative;
+    /* padding-left: 4%;     */
+    font-size: larger;
+    /* font-size: 1.7rem !important; */
+    font-weight: bold;
+    font-size: 1.5rem;
     /* font-family: fantasy; */
     font-style: normal;
     display: flex;
@@ -46,3 +74,13 @@
     color: #ecf0ef;
     text-transform: uppercase;
 }
+
+/* .cardStyle-lightMode {
+    background-color: #01051b !important;
+    color: #ecf0ef !important;
+}
+
+.cardStyle-darkMode {
+    color: #01051b !important;
+    background-color: #ecf0ef !important;
+} */

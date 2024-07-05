@@ -1,4 +1,4 @@
-.container-base-styles {
+.container-base-styles-darkMode {
   padding-top: 4rem !important;
   background-image: url("../images/homepage.jpeg");
   background-size: contain;
@@ -9,11 +9,29 @@
   /* /* background-repeat: no-repeat; */
 }
 
-.container-left-grid {
+.container-base-styles-lightMode {
+  padding-top: 4rem !important;
+  background-image: url("../images/lightbackground.jpg");
+  /* background-size: contain; */
+  border: 0 !important;
+  height: 100vh;
+  /* height: 100vw;
+  width: 100vw; */
+  /* background-repeat: no-repeat; */
+}
+
+.container-left-grid-lightMode {
   color: #f8f4ec !important;
   top: 9rem;
   position: relative;
   padding-left: 7rem;
+}
+
+.container-left-grid-darkMode {
+  color: #000000 !important;
+  top: 9rem;
+  position: relative;
+  padding-left: 7rem; 
 }
 
 /* .container-left-grid-child:nth-child(1) {
@@ -27,34 +45,56 @@
     font-style: normal;
 } */
 
-.container-left-grid-child:nth-child(1) {
+.container-left-grid-child-darkMode:nth-child(1) {
   font-size: 2rem !important;
   font-family: emoji;
   font-style: normal;
   color: #dafffbb3;
 }
 
-.container-left-grid-child:nth-child(2) {
+.container-left-grid-child-darkMode:nth-child(2) {
   font-size: 4rem;
   font-style: normal;
   font-family: ui-monospace;
   color: #dafffb;
 }
 
-.container-right-grid-img {
-  /* background-image: url("../images/womentech.png");
-  height: 10rem; */
-  /* background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; */
-    /* display: block;
-    opacity: 0.7;
-  margin-top: 9rem;
-  margin-left: 7rem; */
+.container-left-grid-child-lightMode:nth-child(1) {
+  font-size: 2rem !important;
+  font-family: emoji;
+  font-style: normal;
+  color: white;
+}
 
+.container-left-grid-child-lightMode:nth-child(2) {
+  font-size: 4rem;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: white;
+}
+
+.container-right-grid-img-lightMode {
   height: 25rem !important;
   display: block;
-  opacity: 0.7; 
+  /* opacity: 0.7; */
   margin-top: 7rem;
   margin-left: 7rem;
+}
+
+.container-right-grid-img-darkMode {
+  height: 25rem !important;
+  display: block;
+  opacity: 0.7;
+  margin-top: 7rem;
+  margin-left: 7rem;
+}
+
+.iconMode {
+  font-size: 3rem !important;
+  color: white;
+}
+
+.divMode {
+  right: 3px;
+  position: absolute;
 }

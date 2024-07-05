@@ -3,7 +3,17 @@
   justify-content: center;
 }
 
-.header-skills {
+.header-skills-lightMode {
+  text-transform: uppercase;
+  text-align: center;
+  color: #01051b;
+  font-family: "Signika Negative", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header-skills-darkMode {
   text-transform: uppercase;
   text-align: center;
   color: white;
@@ -11,4 +21,26 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.background-lightMode {
+  background-color: white;
+  border-top: 3px solid #01051b;
+  border-bottom: 3px solid #01051b;
+}
+
+.background-darkMode {
+  background-color: #01051b;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.paper-style-lightMode {
+  background-color: #01051b !important;
+  color: white !important;
+}
+
+.paper-style-darkMode {
+  color: #01051b !important;
+  background-color: white !important;
 }

@@ -1,11 +1,11 @@
 import * as React from 'react';
-import {Card, CardContent, CardMedia, Typography} from '@mui/material';
-
-export default function MediaCard({cardTitle, cardBody}) {
+import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+console.log("render");
+export default function MediaCard({ cardTitle, cardBody, inMode }) {
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 400}}>
       <CardMedia
-        sx={{ height: 200 }}
+        sx={{ height: 200}}
         image={require("../images/projecttech.jpg")}
         title="green iguana"
       />

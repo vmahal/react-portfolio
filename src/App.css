@@ -14,10 +14,29 @@
   
 }
 
-.app-background {
+.app-background-lightMode {
+  background-color: #fcfcfd !important;
+  font-family: "Signika Negative", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.app-background-darkMode {
   background-color: #01051b !important;
   font-family: "Signika Negative", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+
+.iconMode {
+  font-size: 3rem !important;
+  color: white;
+}
+
+.divMode {
+  right: 1%;
+  top: 2%;
+  position: absolute;
 }
