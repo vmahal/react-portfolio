@@ -22,7 +22,7 @@ function App() {
   return (
     <div style={{ backgroundColor: "#01051b" }} className={isLightMode ? "app-background-lightMode" : "app-background-darkMode"}>
       <div className="divMode">
-        <Button onClick={handleClick}>{!isLightMode ? <LightModeIcon className="iconMode" /> : <DarkModeIcon sx={{color: "black"}} className="iconMode" />}</Button>
+        <Button onClick={handleClick}>{!isLightMode ? <LightModeIcon className="iconMode" /> : <DarkModeIcon sx={{ color: "black" }} className="iconMode" />}</Button>
       </div>
       <Home currMode={isLightMode} />
       <Project currMode={isLightMode} />

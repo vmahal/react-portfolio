@@ -13,6 +13,7 @@ const Skills = ({currMode}) => {
     { id: "css", imgPath: "css.png", skillName: "CSS" },
     { id: "mui", imgPath: "mui.png", skillName: "Material UI" },
     { id: "bootstrap", imgPath: "bootstrap.png", skillName: "Bootstrap" },
+    { id: "git", imgPath: "git.png", skillName: "Git" },
   ];
 
   return (
@@ -27,7 +28,7 @@ const Skills = ({currMode}) => {
 
       <Grid container columnSpacing={1} sx={{pl: "1%", pt: "4%"}}>
         {skillSet.map((skill) => (
-          <Grid key={skill.skillName} md={1.7} sm={4} xs={6} className="child-grid-elements">
+          <Grid key={skill.skillName} md={1.5} sm={4} xs={6} className="child-grid-elements">
             <Box
              key={skill.skillName}
               sx={{

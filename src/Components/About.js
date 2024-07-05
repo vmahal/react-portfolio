@@ -7,12 +7,12 @@ const About = ({ currMode }) => {
 
   return (
     <Grid container>
-      <Grid className="center-a-element" xs={4}>
+      <Grid className="center-a-element" xs={12} sm={12} md={4}>
         <img className="about-left-grid-img" src={require('../images/aboutme.png')} alt="about me" />
       </Grid>
-      <Grid xs={8}>
+      <Grid xs={12} sm={12} md={8}>
         <div className={`about-outer-div-${findMode}`}>
-          <div className="padding-class"> Hi There!! 👋🏻 </div>
+          <div className="padding-class"><strong> Hi There!! 👋🏻 </strong></div>
           <div>
             I'm Vanshika, I am born and brought up in <strong className={`strong-style-${findMode}`}>Delhi</strong>.{" "}
           </div>

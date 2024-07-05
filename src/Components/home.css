@@ -98,3 +98,49 @@
   right: 3px;
   position: absolute;
 }
+
+@media screen and (max-width : 400px) {
+
+  .container-left-grid-lightMode {
+    color: #f8f4ec !important;
+    top: 9rem;
+    position: relative;
+    padding-left: 1rem;
+  }
+  
+  .container-left-grid-darkMode {
+    color: #000000 !important;
+    top: 9rem;
+    position: relative;
+    padding-left: 1rem; 
+  }
+
+  .container-left-grid-child-darkMode:nth-child(1) {
+    font-size: 2.2rem !important;
+    font-family: emoji;
+    font-style: normal;
+    color: #dafffbb3;
+  }
+  
+  .container-left-grid-child-darkMode:nth-child(2) {
+    font-size: 4 rem;
+    font-style: normal;
+    font-family: ui-monospace;
+    color: #dafffb;
+  }
+  
+  .container-left-grid-child-lightMode:nth-child(1) {
+    font-size: 2.2rem !important;
+    font-family: emoji;
+    font-style: normal;
+    color: white;
+  }
+  
+  .container-left-grid-child-lightMode:nth-child(2) {
+    font-size: 4 rem;
+    font-style: normal;
+    font-family: ui-monospace;
+    color: white;
+  }
+  
+}
